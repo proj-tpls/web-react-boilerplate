@@ -1,0 +1,9 @@
+linters:
+  '*.{js,jsx}':
+    - 'prettier --write'
+    - eslint
+    - 'git add'
+  '*.css':
+    - 'prettier --write'
+    - stylelint
+    - 'git add'

@@ -1,0 +1,95 @@
+.stockDesc {
+  min-width: 200px;
+  display: flex;
+  padding: 2px 5px;
+  border-bottom: solid 1px #999;
+  height: 26px;
+}
+
+.level2QuoteContainer {
+  height: calc(100% - 47px);
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+}
+
+.level2Quote {
+  /* height: 100%; */
+  width: 100%;
+  padding: 0 5px;
+  display: flex;
+  flex-direction: column;
+  /* position: absolute;
+  top: 50%;
+  transform: translateY(-50%); */
+}
+
+.row {
+  min-width: 200px;
+  display: flex;
+  flex: 1;
+}
+
+.stockCode {
+  flex: 1;
+}
+
+.stockName {
+  flex: 1;
+  text-align: right;
+}
+
+.progress {
+  min-width: 200px;
+  /* background-color: #ddd; */
+  display: flex;
+  padding: 0 5px;
+  align-items: center;
+}
+
+.progressLeftLabel {
+  width: 20px;
+  flex: 1;
+}
+
+.progressRightLabel {
+  width: 20px;
+  flex: 1;
+  text-align: right;
+}
+
+.progressOuter {
+  width: calc(100% - 100px);
+  /* background-color: #25e725; */
+  height: 4px;
+}
+
+.progressInner {
+  background-color: #fd4829;
+  height: 4px;
+}
+
+.label {
+  display: block;
+  text-align: left;
+  flex: 1;
+}
+
+.price {
+  display: block;
+  flex: 1;
+}
+
+.volume {
+  display: block;
+  text-align: right;
+  flex: 1;
+}
+
+.bidAskSplitLine {
+  width: 100%;
+  height: 1px;
+  background-color: #ddd;
+}

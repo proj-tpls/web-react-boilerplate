@@ -1,0 +1,23 @@
+.container {
+  width: 400px;
+  margin: 0 auto;
+}
+
+.tip {
+  height: 30px;
+  line-height: 30px;
+  color: rgb(250, 100, 100);
+}
+
+.stockList {
+  border: solid 1px #ddd;
+  height: 385px;
+  overflow: auto;
+}
+
+.stockRow {
+  /* transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1); */
+  &:hover {
+    background-color: #e6f7ff;
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "name": "pages",
+  "torenia": {
+    "title": "首页",
+    "menu": false
+  },
+  "version": "1.0.0",
+  "description": "首页",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "leemotive",
+  "license": "ISC"
+}

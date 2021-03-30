@@ -1,0 +1,34 @@
+.sider {
+  :global {
+    .ant-menu-inline,
+    .ant-menu-vertical,
+    .ant-menu-vertical-left {
+      border-right: none;
+    }
+
+    .ant-menu-inline-collapsed {
+      & > .ant-menu-item,
+      & > .ant-menu-item-group > .ant-menu-item-group-list > .ant-menu-item,
+      &
+        > .ant-menu-item-group
+        > .ant-menu-item-group-list
+        > .ant-menu-submenu
+        > .ant-menu-submenu-title,
+      & > .ant-menu-submenu > .ant-menu-submenu-title {
+        padding: 0 calc((100% - 16px) / 2) !important;
+      }
+
+      & > div {
+        padding-left: 13px;
+
+        & > img:last-child {
+          display: none;
+        }
+      }
+    }
+
+    .ant-layout-sider-trigger {
+      z-index: 0;
+    }
+  }
+}

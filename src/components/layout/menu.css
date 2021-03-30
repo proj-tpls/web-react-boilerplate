@@ -1,0 +1,22 @@
+
+.menuLogo {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  overflow: hidden;
+  width: 201px;
+  .logo {
+    width: 24px;
+    height: 24px;
+    transition: all 0.2s;
+    /* margin-right: 10px; */
+  }
+
+  .text {
+    width: auto;
+    height: 26px;
+    transition: all 0.2s;
+  }
+}

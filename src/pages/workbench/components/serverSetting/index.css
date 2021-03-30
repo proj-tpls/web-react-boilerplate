@@ -1,0 +1,7 @@
+.settingForm {
+  width: 400px;
+  margin: 0 auto;
+  & > div:last-child {
+    margin-bottom: 0;
+  }
+}

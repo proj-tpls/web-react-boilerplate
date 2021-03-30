@@ -1,0 +1,9 @@
+.settingBtn {
+  color: #aaa;
+  line-height: 1;
+  border: none;
+
+  &:hover {
+    color: #1890ff;
+  }
+}

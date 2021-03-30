@@ -1,0 +1,23 @@
+.container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin-left: 20px;
+  width: 100%;
+}
+
+/* :global {
+  .editable-row .ant-form-item {
+    position: absolute;
+    font-size: 12px;
+    margin-top: -4px;
+  }
+} */
+
+.btnWrapper {
+  margin-top: 15px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}

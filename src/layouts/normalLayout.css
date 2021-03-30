@@ -1,0 +1,36 @@
+.min {
+  -webkit-app-region: no-drag;
+  padding: 10px 20px;
+  color: #555;
+
+  &:hover {
+    background: #ddd;
+    color: #000;
+  }
+}
+
+.max {
+  -webkit-app-region: no-drag;
+  padding: 10px 20px;
+  color: #555;
+
+  &:hover {
+    background: #ddd;
+    color: #000;
+  }
+}
+
+.quit {
+  -webkit-app-region: no-drag;
+  padding: 10px 20px;
+  color: #555;
+  &:hover {
+    background: #f00;
+    color: #fff;
+  }
+}
+
+.winTools {
+  position: absolute;
+  right: 0;
+}

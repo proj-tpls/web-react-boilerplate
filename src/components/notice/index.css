@@ -1,0 +1,27 @@
+.notice {
+  display: inline-block;
+  height: 100%;
+  padding: 0 10px;
+  cursor: pointer;
+
+  :global {
+    .ant-badge-count {
+      top: -15px;
+      right: -5px;
+    }
+
+    .anticon-bell {
+      color: #333;
+    }
+  }
+
+  &:hover {
+    /* background: #deedfe; */
+
+    :global {
+      .anticon-bell {
+        color: #1890ff;
+      }
+    }
+  }
+}

@@ -1,0 +1,116 @@
+.avatar {
+  display: inline-block;
+  padding: 0 10px;
+  cursor: pointer;
+  min-width: 40px;
+  text-align: center;
+  margin-right: 20px;
+
+  &:hover {
+    background: #fcfcfc;
+    color: #1890ff;
+  }
+
+  :global {
+    .anticon-user {
+      font-size: 14px !important;
+      margin-right: 5px;
+    }
+  }
+}
+
+.header {
+  padding: 0;
+  display: flex;
+  background: #fff;
+  color: #555;
+  height: 36px;
+  line-height: 36px;
+  /* box-shadow: rgb(125, 125, 125) 0px 1px 13px; */
+  box-shadow: 0 1px 4px rgba(0, 21, 41, 0.08);
+  z-index: 1;
+  /* -webkit-app-region: drag;
+  -webkit-user-select: none; */
+}
+
+.min {
+  -webkit-app-region: no-drag;
+  padding: 10px 20px;
+  color: #555;
+
+  &:hover {
+    background: #ddd;
+    color: #000;
+  }
+}
+
+.max {
+  -webkit-app-region: no-drag;
+  padding: 10px 20px;
+  color: #555;
+
+  &:hover {
+    background: #ddd;
+    color: #000;
+  }
+}
+
+.quit {
+  -webkit-app-region: no-drag;
+  padding: 10px 20px;
+  color: #555;
+  &:hover {
+    background: #f00;
+    color: #fff;
+  }
+}
+
+.appTitle {
+  padding: 0 20px;
+  /* font-size: 20px;
+  font-weight: bold;
+  font: 12px/1.5 Tahoma,Helvetica,Arial, '宋体',sans-serif; */
+
+  .logo {
+    width: 24px;
+    height: 24px;
+    /* margin-right: 10px; */
+  }
+
+  .text {
+    width: auto;
+    height: 26px;
+  }
+}
+
+:global {
+  /*定义滚动条高宽及背景
+ 高宽分别对应横竖滚动条的尺寸*/
+  ::-webkit-scrollbar {
+    width: 6px; /* 隐藏y轴滚动条 */
+    height: 6px;
+    background-color: #f5f5f5;
+  }
+  /*定义滚动条轨道
+  内阴影+圆角*/
+  ::-webkit-scrollbar-track {
+    border-radius: 10px;
+    background-color: #f5f5f5;
+  }
+  /*定义滑块
+  内阴影+圆角*/
+  ::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background-color: #bbb;
+    background-image: -webkit-linear-gradient(
+      45deg,
+      rgba(255, 255, 255, 0.2) 25%,
+      transparent 25%,
+      transparent 50%,
+      rgba(255, 255, 255, 0.2) 50%,
+      rgba(255, 255, 255, 0.2) 75%,
+      transparent 75%,
+      transparent
+    );
+  }
+}

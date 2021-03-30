@@ -1,0 +1,13 @@
+.input {
+  font-size: 18px;
+  font-weight: bold;
+  width: 180px;
+}
+
+.settingForm {
+  width: 400px;
+  margin: 0 auto;
+  & > div:last-child {
+    margin-bottom: 0;
+  }
+}

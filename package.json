@@ -3,7 +3,6 @@
   "version": "0.0.1",
   "description": "a boilerplate of pc web composed with dva、react、antd, which supports node version 8.*.*.",
   "main": "src/index.js",
-  "homepage": "./dist",
   "build": {},
   "scripts": {
     "build:dev": "cross-env NODE_ENV=development webpack",
